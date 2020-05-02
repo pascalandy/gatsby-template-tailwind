@@ -14,5 +14,4 @@ npm run build
 https://magic.reactjs.net/htmltojsx.htm
 
 # To set
-
 https://tailwindui.com/documentation#getting-set-up

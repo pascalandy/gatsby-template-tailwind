@@ -1,10 +1,17 @@
-// See https://tailwindcss.com/docs/configuration for details
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: ["./src/**/*.js"],
   variants: {},
-  //github.com/tailwindcss/custom-forms is INCLUDED in tailwindcss/ui
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      },
+    },
+  },
   plugins: [
     require('@tailwindcss/ui'),
   ]
-};
+}
+
