@@ -72,6 +72,17 @@ function Header() {
           ))}
         </nav>
       </div>
+
+      {/* <!-- font --> */}
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+      {/* <!-- javascript --> */}
+      <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.2/dist/alpine.js" defer></script>
+      {/* <!-- Font Awesome 5 --> */}
+      <script src="https://kit.fontawesome.com/ea458b030b.js" defer></script>
+      {/* <!-- analytic --> */}
+      {/* <script async defer src="https://cdn.simpleanalytics.io/hello.js" defer></script> */}
+      {/* <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt="" /></noscript> */}
+
     </header>
   );
 }
