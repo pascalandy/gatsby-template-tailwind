@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "gatsby-template-tailwind",
+  "description": "Based on > Gatsby starter styled with Tailwind",
   "version": "4.0.0",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
@@ -19,6 +19,7 @@
     "gatsby",
     "tailwind",
     "tailwindcss",
+    "tailwindui",
     "purgecss"
   ],
   "license": "MIT",
