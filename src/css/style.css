@@ -1,5 +1,7 @@
-/*! purgecss start ignore */
+@import url(https://rsms.me/inter/inter.css);
+
 @tailwind base;
+
 @tailwind components;
-/*! purgecss end ignore */
+
 @tailwind utilities;
